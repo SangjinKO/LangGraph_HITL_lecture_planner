@@ -158,3 +158,12 @@ curl -X POST http://localhost:3000/generate \
 **`/resume`에서 validate_node 재실행**
 
 잘못된 `thread_id`를 사용하면 MemorySaver에 상태가 없어서 그래프를 처음부터 실행하려 한다. `/resume`에 `pipeline.get_state(config).next` 확인 로직을 추가해 명확한 에러를 반환한다.
+
+---
+
+<img width="1447" height="824" alt="multi-agent-LangGraph-HITL_1" src="https://github.com/user-attachments/assets/075081ce-a105-442d-b34e-296c07c22ec5" />
+
+<img width="1440" height="839" alt="multi-agent-LangGraph-HITL_2" src="https://github.com/user-attachments/assets/47d52aca-ae42-4009-9037-c2fe0ad183ea" />
+
+
+
